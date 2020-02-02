@@ -1,3 +1,1 @@
-// ALWAYS EXPORT MODULE AS default
-
-export { ExampleModule as default } from "./example-module";
+export { ChessModule as default } from "./chess-module";

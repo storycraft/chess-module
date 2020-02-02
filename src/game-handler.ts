@@ -74,7 +74,7 @@ export class GameHandler {
 
                     let winner = user === this.game.Creator ? this.game.Challenger! : this.game.Creator;
 
-                    this.game.broadcastMessage(`${this.game.getColorPrefix(user)} [${user.Client.ClientName}] ${user.Name} 가 기권을 선언했습니다`);
+                    this.game.broadcastMessage(`${this.game.getColorPrefix(user)} [${user.Client.ClientName}] ${user.Name} 이(가) 기권을 선언했습니다`);
 
                     await this.delay(500);
 

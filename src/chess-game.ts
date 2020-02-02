@@ -25,10 +25,10 @@ export class ChessGame {
     public static readonly HIGHLIGHT_WIDTH = 45;
     public static readonly HIGHLIGHT_HEIGHT = 45;
 
-    public static readonly BOARD_IMG = '../chess-module/resources/chessboard.png';
-    public static readonly PIECES_SPRITE_IMG = '../chess-module/resources/chess_pieces.png';
-    public static readonly OVERLAY_IMG = '../chess-module/resources/chessoverlay.png';
-    public static readonly HIGHLIGHT_IMG = '../chess-module/resources/highlight.png';
+    public static readonly BOARD_IMG =  `${__dirname}/../chess-module/resources/chessboard.png`;
+    public static readonly PIECES_SPRITE_IMG = `${__dirname}/../chess-module/resources/chess_pieces.png`;
+    public static readonly OVERLAY_IMG = `${__dirname}/../chess-module/resources/chessoverlay.png`;
+    public static readonly HIGHLIGHT_IMG = `${__dirname}/../chess-module/resources/highlight.png`;
 
     private static BOARD_BUFFER: Buffer | null = null;
     private static SPRITE_BUFFER: Buffer | null = null;

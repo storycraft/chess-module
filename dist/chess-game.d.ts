@@ -16,10 +16,10 @@ export declare class ChessGame {
     static readonly SQAURE_HEIGHT = 45;
     static readonly HIGHLIGHT_WIDTH = 45;
     static readonly HIGHLIGHT_HEIGHT = 45;
-    static readonly BOARD_IMG = "../chess-module/resources/chessboard.png";
-    static readonly PIECES_SPRITE_IMG = "../chess-module/resources/chess_pieces.png";
-    static readonly OVERLAY_IMG = "../chess-module/resources/chessoverlay.png";
-    static readonly HIGHLIGHT_IMG = "../chess-module/resources/highlight.png";
+    static readonly BOARD_IMG: string;
+    static readonly PIECES_SPRITE_IMG: string;
+    static readonly OVERLAY_IMG: string;
+    static readonly HIGHLIGHT_IMG: string;
     private static BOARD_BUFFER;
     private static SPRITE_BUFFER;
     private static OVERLAY_BUFFER;

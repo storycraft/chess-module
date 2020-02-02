@@ -19,7 +19,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@akaiv/core": "^1.5.0",
+    "@akaiv/core": "^1.5.2",
     "canvas": "^2.6.1",
     "chess.js": "git+https://github.com/jhlywa/chess.js.git#8e854c7004c391f150e10fad04568d34f248bc9e"
   }
